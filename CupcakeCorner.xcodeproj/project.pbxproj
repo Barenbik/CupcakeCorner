@@ -11,6 +11,8 @@
 		3ABA4B0F2BA47DA6001FF3FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA4B0E2BA47DA6001FF3FF /* ContentView.swift */; };
 		3ABA4B112BA47DA7001FF3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA4B102BA47DA7001FF3FF /* Assets.xcassets */; };
 		3ABA4B142BA47DA7001FF3FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA4B132BA47DA7001FF3FF /* Preview Assets.xcassets */; };
+		3ABA4B1B2BA49097001FF3FF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA4B1A2BA49097001FF3FF /* Order.swift */; };
+		3ABA4B1D2BA4947F001FF3FF /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA4B1C2BA4947F001FF3FF /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3ABA4B0E2BA47DA6001FF3FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3ABA4B102BA47DA7001FF3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ABA4B132BA47DA7001FF3FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3ABA4B1A2BA49097001FF3FF /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3ABA4B1C2BA4947F001FF3FF /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				3ABA4B0E2BA47DA6001FF3FF /* ContentView.swift */,
 				3ABA4B102BA47DA7001FF3FF /* Assets.xcassets */,
 				3ABA4B122BA47DA7001FF3FF /* Preview Content */,
+				3ABA4B1A2BA49097001FF3FF /* Order.swift */,
+				3ABA4B1C2BA4947F001FF3FF /* AddressView.swift */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABA4B1B2BA49097001FF3FF /* Order.swift in Sources */,
+				3ABA4B1D2BA4947F001FF3FF /* AddressView.swift in Sources */,
 				3ABA4B0F2BA47DA6001FF3FF /* ContentView.swift in Sources */,
 				3ABA4B0D2BA47DA6001FF3FF /* CupcakeCornerApp.swift in Sources */,
 			);
