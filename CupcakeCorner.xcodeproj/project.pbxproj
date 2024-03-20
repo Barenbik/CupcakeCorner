@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA0AC632BAB5C5C009DA35F /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0AC622BAB5C5C009DA35F /* CheckoutView.swift */; };
 		3ABA4B0D2BA47DA6001FF3FF /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA4B0C2BA47DA6001FF3FF /* CupcakeCornerApp.swift */; };
 		3ABA4B0F2BA47DA6001FF3FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA4B0E2BA47DA6001FF3FF /* ContentView.swift */; };
 		3ABA4B112BA47DA7001FF3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA4B102BA47DA7001FF3FF /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AA0AC622BAB5C5C009DA35F /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		3ABA4B092BA47DA6001FF3FF /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABA4B0C2BA47DA6001FF3FF /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		3ABA4B0E2BA47DA6001FF3FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				3ABA4B1A2BA49097001FF3FF /* Order.swift */,
 				3ABA4B102BA47DA7001FF3FF /* Assets.xcassets */,
 				3ABA4B122BA47DA7001FF3FF /* Preview Content */,
+				3AA0AC622BAB5C5C009DA35F /* CheckoutView.swift */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				3ABA4B1B2BA49097001FF3FF /* Order.swift in Sources */,
 				3ABA4B1D2BA4947F001FF3FF /* AddressView.swift in Sources */,
+				3AA0AC632BAB5C5C009DA35F /* CheckoutView.swift in Sources */,
 				3ABA4B0F2BA47DA6001FF3FF /* ContentView.swift in Sources */,
 				3ABA4B0D2BA47DA6001FF3FF /* CupcakeCornerApp.swift in Sources */,
 			);
