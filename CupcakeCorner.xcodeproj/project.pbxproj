@@ -55,12 +55,12 @@
 		3ABA4B0B2BA47DA6001FF3FF /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
-				3ABA4B0C2BA47DA6001FF3FF /* CupcakeCornerApp.swift */,
+				3ABA4B1C2BA4947F001FF3FF /* AddressView.swift */,
 				3ABA4B0E2BA47DA6001FF3FF /* ContentView.swift */,
+				3ABA4B0C2BA47DA6001FF3FF /* CupcakeCornerApp.swift */,
+				3ABA4B1A2BA49097001FF3FF /* Order.swift */,
 				3ABA4B102BA47DA7001FF3FF /* Assets.xcassets */,
 				3ABA4B122BA47DA7001FF3FF /* Preview Content */,
-				3ABA4B1A2BA49097001FF3FF /* Order.swift */,
-				3ABA4B1C2BA4947F001FF3FF /* AddressView.swift */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
