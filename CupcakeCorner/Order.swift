@@ -8,7 +8,20 @@
 import Foundation
 
 @Observable
-class Order {
+class Order: Codable {
+    // These are required so that our json has the correct keys when posting to the server.
+    enum CodingKeys: String, CodingKey {
+        case _type = "type"
+        case _quantity = "quantity"
+        case _specialRequestEnabled = "specialRequestEnabled"
+        case _extraFrosting = "extraFrosting"
+        case _addSprinkles = "addSprinkles"
+        case _name = "name"
+        case _city = "city"
+        case _streetAddress = "streetAddress"
+        case _zip = "zip"
+    }
+    
     static let types = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
     
     var type = 0
@@ -36,6 +49,10 @@ class Order {
             return false
         }
         
+        if containsOnlyWhitespace(name) || containsOnlyWhitespace(streetAddress) || containsOnlyWhitespace(city) || containsOnlyWhitespace(zip) {
+            return false
+        }
+        
         return true
     }
     
@@ -57,5 +74,11 @@ class Order {
         }
         
         return cost
+    }
+    
+    func containsOnlyWhitespace(_ string: String) -> Bool {
+        let trimmedString = string.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        return trimmedString.isEmpty
     }
 }
