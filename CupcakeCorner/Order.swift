@@ -26,6 +26,8 @@ class Order: Codable {
     
     var type = 0
     var quantity = 3
+    var extraFrosting = false
+    var addSprinkles = false
     
     var specialRequestEnabled = false {
         didSet {
@@ -36,13 +38,29 @@ class Order: Codable {
         }
     }
     
-    var extraFrosting = false
-    var addSprinkles = false
+    var name = UserDefaults.standard.string(forKey: "Name") ?? "" {
+        didSet {
+            UserDefaults.standard.set(name, forKey: "Name")
+        }
+    }
     
-    var name = ""
-    var streetAddress = ""
-    var city = ""
-    var zip = ""
+    var streetAddress = UserDefaults.standard.string(forKey: "StreetAddress") ?? "" {
+        didSet {
+            UserDefaults.standard.set(streetAddress, forKey: "StreetAddress")
+        }
+    }
+    
+    var city = UserDefaults.standard.string(forKey: "City") ?? "" {
+        didSet {
+            UserDefaults.standard.set(city, forKey: "City")
+        }
+    }
+    
+    var zip = UserDefaults.standard.string(forKey: "Zip") ?? "" {
+        didSet {
+            UserDefaults.standard.set(zip, forKey: "Zip")
+        }
+    }
     
     var hasValidAddress: Bool {
         if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
